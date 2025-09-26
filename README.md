@@ -39,6 +39,17 @@ The website is designed for a fictional medical practice, **Dr. Lwande Mngeni Me
 - **Part 2**: Application of CSS for styling and layout ✅  
 - **Bonus**: Added JavaScript for interactivity ✅  
 
+## References
+
+- W3Schools. (n.d.). *HTML Tutorial*. Retrieved from https://www.w3schools.com/html/
+- W3Schools. (n.d.). *CSS Tutorial*. Retrieved from https://www.w3schools.com/css/
+- W3Schools. (n.d.). *JavaScript Tutorial*. Retrieved from https://www.w3schools.com/js/
+- MDN Web Docs. (n.d.). *HTML: HyperText Markup Language*. Retrieved from https://developer.mozilla.org/en-US/docs/Web/HTML
+- MDN Web Docs. (n.d.). *CSS: Cascading Style Sheets*. Retrieved from https://developer.mozilla.org/en-US/docs/Web/CSS
+- MDN Web Docs. (n.d.). *JavaScript Guide*. Retrieved from https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide
+- FreeCodeCamp. (2023). *Responsive Web Design Principles*. Retrieved from https://www.freecodecamp.org/
+- Bootstrap Documentation. (n.d.). *Responsive Layouts*. Retrieved from https://getbootstrap.com/docs/
+
 ## Credits
 Developed by **Lwande Mngeni (ST10468356)**  
 Rosebank College – WEDE5020
