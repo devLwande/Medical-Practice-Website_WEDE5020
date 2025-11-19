@@ -1,55 +1,109 @@
-# Medical Practice Website – WEDE5020 POE
+# ST10468356 – POE Website Project  
+Full Website with Part 3 Enhancements
 
-## Student Information
-- **Name:** Lwande Mngeni  
-- **Student Number:** ST10468356  
-- **Module:** WEDE5020 – Web Development  
-- **Assessment:** Portfolio of Evidence (Part 1 & 2)  
+## 📌 Overview
+This project is a fully functional multi-page website developed for the WEDE5020 module.  
+Part 3 includes JavaScript functionality, SEO optimisation, improved UX, and final packaging.
 
-## Project Overview
-This project is a **medical practice website** developed for the WEDE5020 Portfolio of Evidence.  
-It demonstrates understanding of **HTML5, CSS3, and JavaScript** through a fully responsive, multi-page website.  
+---
 
-The website is designed for a fictional medical practice, **Dr. Lwande Mngeni Medical Practice**, and highlights services, booking functionality, and contact information.  
+## 🚀 Features
 
-## Features
-- ✅ **Five fully functional webpages**:
-  1. Home  
-  2. About  
-  3. Services  
-  4. Enquiry (Booking Form)  
-  5. Contact  
+### **✔ Part 1 & 2 (Structure + Styling)**
+- Multi-page responsive HTML website  
+- Clean and accessible layout  
+- Professional colour palette & typography  
+- Image gallery  
+- Academic-compliant structure  
 
-- ✅ **Responsive design** using external CSS (`css/style.css`)  
-- ✅ **JavaScript functionality** (`js/script.js`) for:
-  - Mobile navigation menu toggle  
-  - Automatic copyright year  
-- ✅ **Organized file structure** with `css/`, `js/`, and `images/` folders  
-- ✅ Accessibility considerations (semantic tags, alt attributes, form validation basics)  
+### **✔ Part 3 (Interactive Functionality)**
+- Client-side **form validation**
+- Contact form **mailto** auto-generation  
+- Dynamic **enquiry cost simulation**  
+- **Accordion** component for collapsible content  
+- **Image lightbox** (click images to expand)  
+- SEO enhancements:
+  - `robots.txt`
+  - `sitemap.xml`
+  - Meta descriptions + keywords on each page  
+- Fully functional JavaScript file (`script.js`)
+
+---
+
+## 🧪 How to Test the Website Locally
+1. Download the assets folder from the Repo Link.
+
+2. Extract it.
+
+3. Open **index.html** in any browser.
+
+---
+
+## 📄 File Structure
+
+```
+project/
+│ index.html
+│ style.css
+│ script.js
+│ robots.txt
+│ sitemap.xml
+│ README.md
+└── assets/
+    ├── images/
+    └── icons/
+```
+
+---
+
+## 📝 Changelog 
+
+## **v1.3 – Part 3 Enhancements (Current Release)**  
+### Added
+- JavaScript functionality (`script.js`):
+  - Form validation for contact and enquiry pages  
+  - Mailto compilation for contact form  
+  - Enquiry cost simulation with dynamic messaging  
+  - Accordion component  
+  - Image lightbox for gallery images  
+- SEO files:  
+  - `robots.txt`  
+  - `sitemap.xml`
+- Meta tags on all pages (description, keywords, viewport)
+
+### Updated
+- HTML pages updated with IDs and JS hooks  
+- Added `<div class="form-status"></div>` for validation messages  
+- Improved accessibility and semantics  
+- Updated README
+
+### Fixed
+- Missing HTML paths to CSS/JS  
+- Lightbox and accordion event conflicts  
+- Local browser compatibility issues
+
+---
+
+## **v1.2 – Styling Pass**
+- Improved layout responsiveness  
+- Added mobile-first refinement  
+- Updated navigation and typography  
+
+## **v1.1 – Multi-Page Structure Added**
+- Added About, Services, Contact, Enquiry pages  
+- Added Gallery  
+- Linked navigation system
+
+## **v1.0 – Initial Commit**
+- Basic project structure created  
+- index.html scaffolded  
 
 
-## How to Run
-1. Download or clone this repository.  
-2. Open `index.html` in any modern web browser (Chrome, Firefox, Edge).  
-3. Navigate through the five webpages using the navigation bar.  
 
+---
 
-## POE Requirements Covered
-- **Part 1**: Creation of a website with a minimum of 5 webpages ✅  
-- **Part 2**: Application of CSS for styling and layout ✅  
-- **Bonus**: Added JavaScript for interactivity ✅  
+## 👤 Author
+**ST10468356**  
+Web Development POE – WEDE5020  
+2025
 
-## References
-
-- W3Schools. (n.d.). *HTML Tutorial*. Retrieved from https://www.w3schools.com/html/
-- W3Schools. (n.d.). *CSS Tutorial*. Retrieved from https://www.w3schools.com/css/
-- W3Schools. (n.d.). *JavaScript Tutorial*. Retrieved from https://www.w3schools.com/js/
-- MDN Web Docs. (n.d.). *HTML: HyperText Markup Language*. Retrieved from https://developer.mozilla.org/en-US/docs/Web/HTML
-- MDN Web Docs. (n.d.). *CSS: Cascading Style Sheets*. Retrieved from https://developer.mozilla.org/en-US/docs/Web/CSS
-- MDN Web Docs. (n.d.). *JavaScript Guide*. Retrieved from https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide
-- FreeCodeCamp. (2023). *Responsive Web Design Principles*. Retrieved from https://www.freecodecamp.org/
-- Bootstrap Documentation. (n.d.). *Responsive Layouts*. Retrieved from https://getbootstrap.com/docs/
-
-## Credits
-Developed by **Lwande Mngeni (ST10468356)**  
-Rosebank College – WEDE5020
