@@ -5,7 +5,6 @@ Full Website with Part 3 Enhancements
 This project is a fully functional multi-page website developed for the WEDE5020 module.  
 Part 3 includes JavaScript functionality, SEO optimisation, improved UX, and final packaging.
 
----
 
 ## 🚀 Features
 
@@ -28,7 +27,6 @@ Part 3 includes JavaScript functionality, SEO optimisation, improved UX, and fin
   - Meta descriptions + keywords on each page  
 - Fully functional JavaScript file (`script.js`)
 
----
 
 ## 🧪 How to Test the Website Locally
 1. Download the assets folder from the Repo Link.
@@ -37,7 +35,7 @@ Part 3 includes JavaScript functionality, SEO optimisation, improved UX, and fin
 
 3. Open **index.html** in any browser.
 
----
+
 
 ## 📄 File Structure
 
@@ -54,7 +52,6 @@ project/
     └── icons/
 ```
 
----
 
 ## 📝 Changelog 
 
@@ -82,7 +79,6 @@ project/
 - Lightbox and accordion event conflicts  
 - Local browser compatibility issues
 
----
 
 ## **v1.2 – Styling Pass**
 - Improved layout responsiveness  
@@ -99,8 +95,6 @@ project/
 - index.html scaffolded  
 
 
-
----
 
 ## 👤 Author
 **ST10468356**  
