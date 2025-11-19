@@ -1,1 +1,0 @@
-function toggleMenu(){const menu=document.getElementById('menu');if(menu)menu.classList.toggle('open');}document.addEventListener('DOMContentLoaded',()=>{const y=document.getElementById('year');if(y)y.textContent=new Date().getFullYear();const menuToggle=document.getElementById('menuToggle');if(menuToggle)menuToggle.addEventListener('click',toggleMenu);});
