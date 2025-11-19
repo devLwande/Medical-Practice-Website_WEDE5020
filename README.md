@@ -40,59 +40,91 @@ Part 3 includes JavaScript functionality, SEO optimisation, improved UX, and fin
 ## 📄 File Structure
 
 ```
-project/
-│ index.html
-│ style.css
-│ script.js
-│ robots.txt
-│ sitemap.xml
-│ README.md
-└── assets/
-    ├── images/
-    └── icons/
+├── robots.txt
+├── sitemap.xml
+│
+      assets/
+    ├── index.html
+    ├── about.html
+    ├── services.html
+    ├── enquiry.html
+    ├── contact.html
+    │
+    ├── css/
+    │   └── style.css
+    │
+    └── js/
+        └── script.js
 ```
 
 
-## 📝 Changelog 
+# ============================
+# CHANGELOG
+# ============================
 
-## **v1.3 – Part 3 Enhancements (Current Release)**  
-### Added
-- JavaScript functionality (`script.js`):
-  - Form validation for contact and enquiry pages  
-  - Mailto compilation for contact form  
-  - Enquiry cost simulation with dynamic messaging  
-  - Accordion component  
-  - Image lightbox for gallery images  
-- SEO files:  
-  - `robots.txt`  
-  - `sitemap.xml`
-- Meta tags on all pages (description, keywords, viewport)
+## v1.0.3 — Final Fixes & Enhancements (Current Release)
 
-### Updated
-- HTML pages updated with IDs and JS hooks  
-- Added `<div class="form-status"></div>` for validation messages  
-- Improved accessibility and semantics  
-- Updated README
+### UI & Layout Fixes
+- Restored navigation bar to navy theme.
+- Fixed spacing between logo/brand name and navigation menu.
+- Re-added missing pricing section on services.html.
+- Restored and fixed map section on index page.
+- Converted all pricing to South African Rands (R).
 
-### Fixed
-- Missing HTML paths to CSS/JS  
-- Lightbox and accordion event conflicts  
-- Local browser compatibility issues
+### Map Functionality
+- Reintroduced Leaflet map integration.
+- Updated map coordinates to Johannesburg (-26.2041, 28.0473).
+- Ensured Leaflet CSS/JS load properly and map renders without errors.
 
+### Bug Fixes
+- Fixed missing <main> tag logic that prevented map insertion.
+- Validated HTML structure across all pages.
+- Removed unused/broken script links.
+- Ensured all pages have working internal navigation.
 
-## **v1.2 – Styling Pass**
-- Improved layout responsiveness  
-- Added mobile-first refinement  
-- Updated navigation and typography  
+## v1.0.2 — Feature Expansion
 
-## **v1.1 – Multi-Page Structure Added**
-- Added About, Services, Contact, Enquiry pages  
-- Added Gallery  
-- Linked navigation system
+### JavaScript Features
+- Added UI animations and interactive components.
+- Implemented dynamic content loading areas.
+- Added search/filter functionality for services.
+- Added gallery system compatible with lightbox.
 
-## **v1.0 – Initial Commit**
-- Basic project structure created  
-- index.html scaffolded  
+### Form Enhancements
+- Added enquiry and contact forms with full HTML5 + JS validation.
+- Added custom error messaging and dynamic feedback.
+- Enabled mailto-based submission for contact form.
+- Added automated quote logic for enquiry form.
+
+### SEO Optimisation
+- Added meta descriptions for all pages.
+- Improved heading hierarchy across site.
+- Added robots.txt and sitemap.xml.
+- Improved alt text, internal linking and URL cleanliness.
+
+## v1.0.1 — Initial Improvements
+
+### Project Structure
+- Standardised folder structure (assets/css, assets/js, assets/images).
+- Implemented consistent header/footer across the 5 pages.
+- Added foundational responsive design system.
+
+### Styling Additions
+- Improved global typography and spacing.
+- Added button styles, card layouts and section formatting.
+
+## v1.0.0 — Initial Website Version
+- Created all 5 required pages:
+  - Home
+  - Services
+  - About
+  - Contact
+  - Enquiry
+- Added initial layout, branding and base functionality.
+
+# ============================
+# END OF CHANGELOG
+# ============================
 
 
 
