@@ -58,9 +58,7 @@ Part 3 includes JavaScript functionality, SEO optimisation, improved UX, and fin
 ```
 
 
-# ============================
 # CHANGELOG
-# ============================
 
 ## v1.0.3 — Final Fixes & Enhancements (Current Release)
 
@@ -121,10 +119,6 @@ Part 3 includes JavaScript functionality, SEO optimisation, improved UX, and fin
   - Contact
   - Enquiry
 - Added initial layout, branding and base functionality.
-
-# ============================
-# END OF CHANGELOG
-# ============================
 
 
 
